@@ -13,28 +13,28 @@
     />
 
     <link rel="stylesheet" href="./css/styles.css" />
-    <title>Homework 9</title>
+    <title>Page 3</title>
   </head>
   <body>
-    <header class="header">
-      <nav class="nav">
-        <ul class="nav-list">
-          <li class="nav-item">
-            <a href="./1-gallery.html" class="nav-link">Gallery</a>
-          </li>
-
-          <li class="nav-item">
-            <a href="./2-form.html" class="nav-link">Form</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-
-    <section class="main">
-      <h1>
-        <span>Homework 9 </span>
-        <img src="./img/javascript.svg" alt="javascript" />
-      </h1>
+    <section>
+      <a href="./index.html">Go to home</a>
+      <h1>Welcome to page 3</h1>
     </section>
+
+    <main>
+      <form class="feedback-form" autocomplete="off">
+        <label>
+          Email
+          <input type="email" name="email" autofocus />
+        </label>
+        <label>
+          Message
+          <textarea name="message" rows="8"></textarea>
+        </label>
+        <button type="submit" class="blue">Submit</button>
+      </form>
+    </main>
+
+    <script type="module" src="./js/2-form.js"></script>
   </body>
 </html>
